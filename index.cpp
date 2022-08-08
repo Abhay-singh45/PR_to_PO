@@ -132,11 +132,11 @@ void generate(requisition r, po p)
     fout << "-------------------------------------------------------------------------\n";
     fout << "Item Code\t\tQuantity\t\tPrice\t\tTotal\n";
     fout << "_________\t\t________\t\t_____\t\t_____\n\n";
-    fout << "    " << r.item_code << "\t\t    " << r.qty << " ";
+    fout << "    " << r.item_code << "\t\t      " << r.qty << " ";
 
     if (r.item_code >= 1 && r.item_code <= 20)
     {
-        fout << "\t\t " << price_list[r.item_code - 1] << "\t\t " << price_list[r.item_code - 1] * r.qty << "\n\n\n\n";
+        fout << "\t\t\t " << price_list[r.item_code - 1] << "\t\t " << price_list[r.item_code - 1] * r.qty << "\n\n\n\n";
     }
     else
     {
