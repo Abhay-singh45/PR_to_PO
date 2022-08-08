@@ -1,12 +1,12 @@
-			 Purchase Order#: 1
+			 Purchase Order#: 2
 			___________________
 
-Requisition#: 1				 Issue Date: Fri Jul 22 16:39:24 2022
+Requisition#: 1				 Issue Date: Mon Aug 01 11:43:58 2022
 
 
 Supplier: SKS Inc
 
-Delivery Date: 22/07/2022
+Delivery Date: 2/8/22
 
 -------------------------------------------------------------------------
     				*Line Items*
@@ -14,7 +14,7 @@ Delivery Date: 22/07/2022
 Item Code		Quantity		Price		Total
 _________		________		_____		_____
 
-    1		    12 		 865		 10380
+    5		    12 		 20		 240
 
 
 
